@@ -13,3 +13,5 @@
 2. Una vez ahi agregaremos las librerias correspondientes para el funcionamiento de nuestra practica:
 - DHT sensor library for ESPx
 - LiquidCrystal I2C
+![](https://github.com/raul7ops-sketch/Reporte-3-Pantalla-LCD/blob/main/Imagen%20de%20librerias%20reporte%203.png?raw=true)
+3. Seleccionamos el sensor ´´´DHT-11´´´ y el ´´´Liquid Crystal Display IC2´´´ y lo conectamos de la siguiente manera:
