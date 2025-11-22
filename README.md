@@ -1,14 +1,14 @@
 # Reporte-3-Pantalla-LCD
 ## Introduccion
-### En esta practica se trato de usar la tarjeta de adquisicion de datos ´´´Esp 22´´´  junto con el sensor antes usado ´´´ DHT-11´´´  pero esta vez se incorporrar una pantala LCD (Liquid crystal display) para poder revisar los datos de temperatura y humedad que arroja el sensor pero para poder vizulizarlo de forma fisica y no necesariamente por el monitor serial.
+### En esta practica se trato de usar la tarjeta de adquisicion de datos ```ESP 22``` junto con el sensor antes usado ```DHT_11``` pero esta vez se incorporrar una pantala LCD (Liquid crystal display) para poder revisar los datos de temperatura y humedad que arroja el sensor pero para poder vizulizarlo de forma fisica y no necesariamente por el monitor serial.
 ## Materiales y equipo a utilizar
-- Tarjeta ´´´ Esp 22´´´
+- Tarjeta ```Esp 22```
 - Sensor de temperatura DHT11
 - Plataforma Wokwi
 - Tarjeta LCD 16X2
 
 ## Procedimiento
-### 1. Entrar y abrir la plataforma Wokwi donde seleccionaremos la siguiente tarjeta de adquisicion ´´´ ESP 22´´´
+### 1. Entrar y abrir la plataforma Wokwi donde seleccionaremos la siguiente tarjeta de adquisicion ```ESP 22```
 ![](https://github.com/raul7ops-sketch/Reporte-3-Pantalla-LCD/blob/main/Reporte%201%20esp%2022.png?raw=true)
 ### 2. Una vez ahi agregaremos las librerias correspondientes para el funcionamiento de nuestra practica:
 - DHT sensor library for ESPx
@@ -16,8 +16,15 @@
 ![](https://github.com/raul7ops-sketch/Reporte-3-Pantalla-LCD/blob/main/Imagen%20de%20librerias%20reporte%203.png?raw=true)
 ### 3. Seleccionamos el sensor ´´´DHT-11´´´ y el ´´´Liquid Crystal Display IC2´´´ y lo conectamos de la siguiente manera:
 ![](https://github.com/raul7ops-sketch/Reporte-3-Pantalla-LCD/blob/main/Conexion%20del%20reporte%203.png?raw=true)
-### 4. Copiamos el siguiente codigo y lo pegamos en Wokwi:
-´´´#include "DHTesp.h"
+### 4. Copiamos el siguiente codigo y lo pegamos en Wokwi:Donde en este codigo hace que en la pantalla LCD muestre los valores de temperatura y humedad ademas de que se le agrego un para oraciones como ```Bienvenidos al curso``` y ```Raul Aguilar L. Ing. Mecanico```
+
+
+
+
+
+lll
+
+#include "DHTesp.h"
 #include <LiquidCrystal_I2C.h>
 #define I2C_ADDR    0x27
 #define LCD_COLUMNS 20
@@ -64,14 +71,14 @@ void loop() {
   lcd.setCursor(0, 1);
   lcd.print("Ing. Mecanico");
   delay(1000);
-}´´´
+} ```
 
-Donde en este codigo hace que en la pantalla LCD muestre los valores de temperatura y humedad ademas de que se le agrego un para oraciones como "Bienvenidos al curso" y "Raul Aguilar L. Ing. Mecanico"
+Donde en este codigo hace que en la pantalla LCD muestre los valores de temperatura y humedad ademas de que se le agrego un para oraciones como ```Bienvenidos al curso``` y ```Raul Aguilar L. Ing. Mecanico```
 ### 5. Damos al boton de correr simulacion
 ![](https://github.com/raul7ops-sketch/Reporte-3-Pantalla-LCD/blob/main/Conclusion%20reporte%203.png?raw=true)
 
 ## Conclusion
-### En esta practica se realizo una senso de temperatura pero a la vez se programo e instalo una pantalla LCD para poder visualizar en fisico las variaciones y modificaciones de los comandos que fuimos agregando al codigo sin la necesidad e revisar el monitor serial que nos ofrece el software.
+### En esta practica se realizo una senso de temperatura pero a la vez se programo e instalo una pantalla ```LCD``` para poder visualizar en fisico las variaciones y modificaciones de los comandos que fuimos agregando al codigo sin la necesidad e revisar el monitor serial que nos ofrece el software.
 
 ## Creditos
 Este reporte fue realizado por Raul Aguilar Lagunas
