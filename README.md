@@ -9,3 +9,4 @@
 
 ## Procedimiento
 1. Entrar y abrir la plataforma Wokwi donde seleccionaremos la siguiente tarjeta de adquisicion ´´´ ESP 22´´´
+![](https://github.com/ossajjasso-arch/Practica-reporte/blob/main/images.jpg?raw=true)
