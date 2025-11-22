@@ -18,13 +18,7 @@
 ![](https://github.com/raul7ops-sketch/Reporte-3-Pantalla-LCD/blob/main/Conexion%20del%20reporte%203.png?raw=true)
 ### 4. Copiamos el siguiente codigo y lo pegamos en Wokwi:Donde en este codigo hace que en la pantalla LCD muestre los valores de temperatura y humedad ademas de que se le agrego un para oraciones como ```Bienvenidos al curso``` y ```Raul Aguilar L. Ing. Mecanico```
 
-
-
-
-
-lll
-
-#include "DHTesp.h"
+```#include "DHTesp.h"
 #include <LiquidCrystal_I2C.h>
 #define I2C_ADDR    0x27
 #define LCD_COLUMNS 20
@@ -71,8 +65,8 @@ void loop() {
   lcd.setCursor(0, 1);
   lcd.print("Ing. Mecanico");
   delay(1000);
-} ```
-
+}
+```
 Donde en este codigo hace que en la pantalla LCD muestre los valores de temperatura y humedad ademas de que se le agrego un para oraciones como ```Bienvenidos al curso``` y ```Raul Aguilar L. Ing. Mecanico```
 ### 5. Damos al boton de correr simulacion
 ![](https://github.com/raul7ops-sketch/Reporte-3-Pantalla-LCD/blob/main/Conclusion%20reporte%203.png?raw=true)
