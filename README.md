@@ -68,3 +68,11 @@ void loop() {
 
 Donde en este codigo hace que en la pantalla LCD muestre los valores de temperatura y humedad ademas de que se le agrego un para oraciones como "Bienvenidos al curso" y "Raul Aguilar L. Ing. Mecanico"
 ### 5. Damos al boton de correr simulacion
+![](https://github.com/raul7ops-sketch/Reporte-3-Pantalla-LCD/blob/main/Conclusion%20reporte%203.png?raw=true)
+
+## Conclusion
+### En esta practica se realizo una senso de temperatura pero a la vez se programo e instalo una pantalla LCD para poder visualizar en fisico las variaciones y modificaciones de los comandos que fuimos agregando al codigo sin la necesidad e revisar el monitor serial que nos ofrece el software.
+
+## Creditos
+Este reporte fue realizado por Raul Aguilar Lagunas
+
